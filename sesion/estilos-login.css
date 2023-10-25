@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 
 
-
+body {
+    background-image: url(fondo.png);
+}
 
 .container-all {
     width: 35%;
@@ -60,14 +62,14 @@ input[type="submit"] {
     margin-top: 60px;
     color: white;
     border: 0px;
-    background: linear-gradient(90deg, #0efa41, #000000);
+    background: linear-gradient(90deg, #bbb7b7, #000000);
     font-weight: 300;
     cursor: pointer;
     font-size: 18px;
 }
 
 input[type="submit"]:hover {
-    background: linear-gradient(90deg,   #0dc735, #333333);
+    background: linear-gradient(90deg,   #bbb7b7, #333333);
     transition: 1.5s;
 }
 

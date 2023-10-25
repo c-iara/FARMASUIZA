@@ -3,140 +3,336 @@
     include 'code-register.php';
 
 ?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú lateral responsive</title>
-
-    <link rel="stylesheet" href="../css/estilos.css">
-
-    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+	<title>Farma suiza</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="../css/nav.css">
 </head>
-<body id="body">
-    
-    <header>
-        
-            <div class="icon__menu">
-                <i class="fas fa-bars" id="btn_open"></i>
-            </div>
-            <a href="../../pc store 2/index.php"><img src="../PC_STORE__3_-removebg-preview.png" width="180" height="180" alt=""></a>
-            <div class="">
-        <li class="search-icon">
-                <input type="search" placeholder="Search">
-                
-                
-                </label>
-            </li>
-            </div>
-    </header>
+<body>
+ 
+ <!-- header start -->
+ <header class="header">
+ 	<div class="container">
+ 		<div class="row v-center">
+ 			<div class="header-item item-left">
+ 				<div class="logo">
+ 					<a href="#"><img src="../Mi proyecto.jpg" height="50" width="100"></a>
+ 				</div>
+ 			</div>
+ 			<!-- menu start here -->
+ 			<div class="header-item item-center">
+				<header>
+					
+					<div class="slide-container swiper">
+				   <li class="search-icon" >
+						<input type="search" placeholder="Buscar" >
+						
+					 </li>
+					</div>
+				</header>
+ 				<div class="menu-overlay">
+ 				</div>
+ 				
+				<nav class="menu">
+ 					<div class="mobile-menu-head">
+ 						<div class="go-back"><i class="fa fa-angle-left"></i></div>
+ 						<div class="current-menu-title"></div>
+ 						<div class="mobile-menu-close">&times;</div>
+ 					</div>
+ 					<ul class="menu-main">
+ 						</li>
+						 <li class="menu-item-has-children">
+							<a href="#">Belleza<i class="fa fa-angle-down"></i></a>
+							<div class="sub-menu mega-menu mega-menu-column-4">
+							  <div class="list-item">
+									<h4 class="title">Maquillaje</h4>
+									<ul>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+									</ul>
+									<h4 class="title">Electro Belleza</h4>
+									<ul>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+									</ul>
+							  </div>
+							  <div class="list-item">
+								  <h4 class="title">Perfumes y Fragancias</h4>
+								  <ul>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+									</ul>
+									<h4 class="title">Pelo</h4>
+								  <ul>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+									</ul>
+							  </div>
+							  <div class="list-item">
+								  <h4 class="title">Cuidado de la Piel</h4>
+								  <ul>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+										 <li><a href="#">Producto</a></li>
+									</ul>
+							  </div>
+							  
+							</div>
+						</li>
+ 						
+					</li>
+					<li class="menu-item-has-children">
+					   <a href="#">Cuidado personal<i class="fa fa-angle-down"></i></a>
+					   <div class="sub-menu mega-menu mega-menu-column-4">
+						 <div class="list-item">
+							   <h4 class="title">Pelo</h4>
+							   <ul>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+							   </ul>
+							   <h4 class="title">Repelentes</h4>
+							   <ul>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+							   </ul>
+						 </div>
+						 <div class="list-item">
+							 <h4 class="title">Cuidado Oral</h4>
+							 <ul>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+							   </ul>
+							   <h4 class="title">Higiene Personal</h4>
+							 <ul>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+							   </ul>
+						 </div>
+						 <div class="list-item">
+							 <h4 class="title">Adultos</h4>
+							 <ul>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+									<li><a href="#">Producto</a></li>
+							   </ul>
+						 </div>
+						 
+					   </div>
+				   </li>
 
-    <div class="menu__side" id="menu_side">
+				   <li class="menu-item-has-children">
+					<a href="#">Bebés<i class="fa fa-angle-down"></i></a>
+					<div class="sub-menu mega-menu mega-menu-column-4">
+					  <div class="list-item">
+							<h4 class="title">Nutrición Infantil</h4>
+							<ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+							<h4 class="title">Cuidado Del Bebé</h4>
+							<ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+					  </div>
+					  <div class="list-item">
+						  <h4 class="title">Lactancia</h4>
+						  <ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+							<h4 class="title">Maternidad</h4>
+						  <ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+					  </div>
+					  <div class="list-item">
+						  <h4 class="title">Higiene Del Bebé</h4>
+						  <ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+					  </div>
+					  
+					</div>
+				</li>
+				<li class="menu-item-has-children">
+					<a href="#">salud y farmacia<i class="fa fa-angle-down"></i></a>
+					<div class="sub-menu mega-menu mega-menu-column-4">
+					  <div class="list-item">
+							<h4 class="title">Medicamentos</h4>
+							<ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+							<h4 class="title">Electrosalud</h4>
+							<ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+					  </div>
+					  <div class="list-item">
+						  <h4 class="title">Nutrición Infantil</h4>
+						  <ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+							<h4 class="title">Bienestar Sexual</h4>
+						  <ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+					  </div>
+					  <div class="list-item">
+						  <h4 class="title">Farmacia</h4>
+						  <ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+					  </div>
+					  
+					</div>
+				</li>
 
-        <div class="name__page">
-           <!--no se que poner aca --> 
-          
-           
-        </div>
+				<li class="menu-item-has-children">
+					<a href="#">Dermocosmética<i class="fa fa-angle-down"></i></a>
+					<div class="sub-menu mega-menu mega-menu-column-4">
+					  <div class="list-item">
+							<h4 class="title">Rostro</h4>
+							<ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+							<h4 class="title">Corporal</h4>
+							<ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+					  </div>
+					  <div class="list-item">
+						  <h4 class="title">Solar</h4>
+						  <ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+							<h4 class="title">Pelo</h4>
+						  <ul>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+								 <li><a href="#">Producto</a></li>
+							</ul>
+					  </div>
+					  
+					</div>
+				</li>
 
-        <div class="options__menu">	
+ 						<li>
+ 							<a href="#">Contacto</a>
+ 						</li>
 
-            <a href="index.php" class="selected">
-                <div class="option">
-                    <img src="../img/icn-nav-user.png" width="30" height="30" alt="">
-                    <h4>ㅤIniciar Sesión</h4>
-                </div>
-            </a>
+						 <li>
+							<a href="#"><img src="../carrito.png" width="40" height="20"></a>
+						</li>
+						<li>
+							<a href="#"><img src="../persona.png" width="25" height="20"></a>
+						</li>
+ 					</ul>
+ 				</nav>
+ 			</div>
+ 			<!-- menu end here -->
+ 			<div class="header-item item-right">
+				
+ 				
+ 				<!-- mobile menu trigger -->
+				
+ 				<div class="mobile-menu-trigger" >
+ 					<span></span>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </header>
 
-            <a href="#">
-                <div class="option">
-                    <img src="../img/armarpc.svg" width="30" height="30" alt="">
-                    <h4>ㅤAyuda</h4>
-                </div>
-            </a>
-            
-            <a href="#" >
-                <div class="option">
-                    <img src="../img/componentes.svg" width="30" height="30" alt="">
-                    <h4>ㅤComponentes</h4>
-                </div>
-            </a>
+ <!-- banner end -->
 
-            <a href="#">
-                <div class="option">
-                    <img src="../img/gamer-keyboard.png" width="30" height="30" alt="">
-                    <h4>ㅤTeclados</h4>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="option">
-                    <img src="../img/gaming-chair.png" width="30" height="30" alt="">
-                    <h4>ㅤSillas</h4>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="option">
-                    <img src="../img/mouse_1.png" width="30" height="30" alt="">
-                    <h4>ㅤNosotros</h4>
-                </div>
-            </a>
-            <a href="#">
-                <div class="option">
-                    <img src="../img/palanca-de-mando.png" width="30" height="30" alt="">
-                    <h4>ㅤMandos</h4>
-                </div>
-            </a>
-            <a href="#">
-                <div class="option">
-                    <img src="../img/parlantes.png" width="30" height="30" alt="">
-                    <h4>ㅤParlantes</h4>
-                </div>
-            </a>
-            <a href="#">
-                <div class="option">
-                    <img src="../img/monitor.png" width="30" height="30" alt="">
-                    <h4>ㅤMonitor</h4>
-                </div>
-            </a>
-            <a href="#">
-                <div class="option">
-                    <img src="../img/auris.png" width="30" height="30" alt="">
-                    <h4>ㅤAuriculares</h4>
-                </div>
-            </a>
-            <a href="#">
-                <div class="option">
-                    <img src="../img/Phone.svg" width="30" height="30" alt="">
-                    <h4>ㅤTelefonos</h4>
-                </div>
-            </a>
-            <a href="#" >
-                <div class="option">
-                    <img src="../img/mouse-pad.png" width="30" height="30" alt="">
-                    <h4>ㅤMouse Pad</h4>
-                </div>
-            </a>
-
-        </div>
-
-    </div>
-
-    <script src="../js/script.js"></script>
-</body>
-</html>
-
+ <script src="../js/nav.js"></script>
+ </body>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
-    <link rel="stylesheet" href="../css/estilos-login.css">
+    <link rel="stylesheet" href="estilos-login.css">
     <link rel="stylesheet" href="css/estilos.css">
 
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">

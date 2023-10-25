@@ -30,9 +30,7 @@
 					<div class="slide-container swiper">
 				   <li class="search-icon" >
 						<input type="search" placeholder="Buscar" >
-						<label class="icon">
-						<span class="fas fa-search"><img src="../png-transparent-computer-icons-magnifying-glass-search-box-locate-computer-insurance-desktop-wallpaper.png" height="20" width="20"></span>
-						</label>
+						
 					 </li>
 					</div>
 				</header>
